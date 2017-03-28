@@ -1,0 +1,47 @@
+@import "_variables";
+
+body {
+  font: $serif-fonts;
+}
+
+h1 {
+  font-size: $font-base-size * 2;
+}
+
+h2 {
+  font-size: $font-base-size * 1.75;
+}
+
+h3 {
+  font-size: $font-base-size * 1.5;
+}
+
+h4 {
+  font-size: $font-base-size * 1.25;
+}
+
+h5 {
+  font-size: $font-base-size * 1;
+}
+
+h6 {
+  font-size: $font-base-size * 0.75;
+}
+
+p {
+  font-size: $font-base-size;
+}
+
+img,
+input,
+textarea {
+  border-radius: $radius * 2;
+}
+
+.reg-btn {
+  background-color: lighten($blue, 25%);
+}
+
+.danger {
+  background-color: #f00;
+}
