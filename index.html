@@ -4,67 +4,174 @@
     <meta charset="utf-8">
     <title>Sassy Components</title>
     <link rel="stylesheet" href="compiled/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
-    <p><a href="https://coolors.co/fffbfb-7f675b-0075f2-00f2f2-096b72">My color palette</a></p>
-    <h1>Heading One</h1>
-    <h2>Heading Two</h2>
-    <h3>Heading Three</h3>
-    <h4>Heading Four</h4>
-    <h5>Heading Five</h5>
-    <h6>Heading Six</h6>
-    <p>I'm just some plain text in a paragraph.</p>
-    <p><a href="#">I'm a link</a></p>
-    <p>
-      <input class="reg-btn" type="button" value="Button">
-      <input type="button" class="danger" value="Danger">
-    </p>
-    <p>
-      <input type="text" value="Text">
-      <input type="password" value="Password">
-    </p>
-    <p><textarea>Text Area</textarea></p>
-    <p>
-      <input type="checkbox" id="check1">
-      <label for="check1">Checkbox 1</label>
-      <input type="checkbox" id="check2">
-      <label for="check2">Checkbox 2</label>
-    </p>
-    <p>
-      <input type="radio" id="radio1" name="radio">
-      <label for="radio1">Radio 1</label>
-      <input type="radio" id="radio2" name="radio">
-      <label for="radio2">Radio 2</label>
-    </p>
-    <figure>
-      <img src="http://i.imgur.com/6nIY05X.png">
-      <figcaption>Think, Squirrel Girl, think. How do you stop this guy?</figcaption>
-    </figure>
-    <table>
-      <thead>
-        <tr>
-          <th>Table Heading 1</th>
-          <th>Table Heading 2</th>
-          <th>Table Heading 3</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Row 1, Cell 1</td>
-          <td>Row 1, Cell 2</td>
-          <td>Row 1, Cell 3</td>
-        </tr>
-        <tr>
-          <td>Row 2, Cell 1</td>
-          <td>Row 2, Cell 2</td>
-          <td>Row 2, Cell 3</td>
-        </tr>
-        <tr>
-          <td>Row 3, Cell 1</td>
-          <td>Row 3, Cell 2</td>
-          <td>Row 3, Cell 3</td>
-        </tr>
-      </tbody>
-    </table>
+    <header>
+      <h1 id="site-header">Website Style Guide</h1>
+    </header>
+    <div class="main">
+      <h1>Colors</h1>
+      <div class="colors">
+        <div class="color-container">
+          <div class="color-block">
+            <div id="white-block"></div>
+            <h5>White</h5>
+            <p>Hex: #fffbfb</p>
+          </div>
+          <div class="color-block">
+            <div id="brown-block"></div>
+            <h5>Brown</h5>
+            <p>Hex: #7f675b</p>
+          </div>
+          <div class="color-block">
+            <div id="blue-block"></div>
+            <h5>Blue</h5>
+            <p>Hex: #0075f2</p>
+          </div>
+          <div class="color-block">
+            <div id="teal-block"></div>
+            <h5>Teal</h5>
+            <p>Hex: #096b72</p>
+          </div>
+          <div class="color-block">
+            <div id="light-green-block"></div>
+            <h5>Light greenish-blue</h5>
+            <p>Hex: #00f2f2</p>
+          </div>
+        </div>
+      </div>
+      <h1>Headings</h1>
+      <div class="headings">
+        <div class="block">
+          <p class="text-heading">h1</p>
+          <h1>Heading One</h1>
+        </div>
+        <div class="block">
+          <p class="text-heading">h2</p>
+          <h2>Heading Two</h2>
+        </div>
+        <div class="block">
+          <p class="text-heading">h3</p>
+          <h3>Heading Three</h3>
+        </div>
+        <div class="block">
+          <p class="text-heading">h4</p>
+          <h4>Heading Four</h4>
+        </div>
+        <div class="block">
+          <p class="text-heading">h5</p>
+          <h5>Heading Five</h5>
+        </div>
+        <div class="block">
+          <p class="text-heading">h6</p>
+          <h6>Heading Six</h6>
+        </div>
+      </div>
+
+      <h1>Text</h1>
+      <div class="block">
+        <p class="text-heading">p</p>
+        <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+
+      <h1>Links</h1>
+      <div class="block">
+        <p class="text-heading">a</p>
+        <p><a href="#">I'm a link</a></p>
+      </div>
+
+      <h1>Buttons</h1>
+      <div class="block">
+        <p class="text-heading">Button</p>
+        <p>
+          <input class="reg-btn" type="button" value="Button">
+        </p>
+      </div>
+      <div class="block">
+        <p class="text-heading">Danger Button</p>
+        <p>
+          <input type="button" class="danger" value="Danger">
+        </p>
+      </div>
+
+      <div class="block">
+        <p class="text-heading">input.text</p>
+        <p>
+          <input type="text" value="Text">
+        </p>
+      </div>
+
+      <div class="block">
+        <p class="text-heading">input.password</p>
+        <p>
+          <input type="password" value="Password">
+        </p>
+      </div>
+
+      <div class="block">
+        <p class="text-heading">text-area</p>
+        <p><textarea>Text Area</textarea></p>
+      </div>
+
+      <div class="block">
+        <p class="text-heading">checkbox</p>
+        <p>
+          <input type="checkbox" id="check1">
+          <label for="check1">Checkbox 1</label>
+          <input type="checkbox" id="check2">
+          <label for="check2">Checkbox 2</label>
+        </p>
+      </div>
+
+      <div class="block">
+        <p class="text-heading">radio</p>
+        <p>
+          <input type="radio" id="radio1" name="radio">
+          <label for="radio1">Radio 1</label>
+          <input type="radio" id="radio2" name="radio">
+          <label for="radio2">Radio 2</label>
+        </p>
+      </div>
+
+      <div class="block">
+        <p class="text-heading">figure & figcaption</p>
+        <figure>
+          <img src="http://i.imgur.com/6nIY05X.png">
+          <figcaption>Think, Squirrel Girl, think. How do you stop this guy?</figcaption>
+        </figure>
+      </div>
+
+      <div class="block">
+        <p class="text-heading">tables</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Table Heading 1</th>
+              <th>Table Heading 2</th>
+              <th>Table Heading 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Row 1, Cell 1</td>
+              <td>Row 1, Cell 2</td>
+              <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+              <td>Row 2, Cell 1</td>
+              <td>Row 2, Cell 2</td>
+              <td>Row 2, Cell 3</td>
+            </tr>
+            <tr>
+              <td>Row 3, Cell 1</td>
+              <td>Row 3, Cell 2</td>
+              <td>Row 3, Cell 3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
   </body>
 </html>

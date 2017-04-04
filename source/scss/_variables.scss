@@ -1,10 +1,14 @@
 /* Colors */
-$white: #fffbfb;
-$brown: #7f675b;
-$blue: #0075f2;
-$greenish-blue: #00f2f2;
-$tealish: #096b72;
+$color-white: #fffbfb;
+$color-brown: #7f675b;
+$color-blue: #0075f2;
+$color-light-greenish: #00f2f2;
+$color-teal: #096b72;
 
 $font-base-size: 18px;
-$serif-fonts: Georgia, Cambria, "Times New Roman", serif;
+$roboto-font: 'Roboto', sans-serif;
 $radius: 4px;
+
+$color-padding: 20px 100px;
+$my-border: 1px solid lighten(#000, 75%);
+$button-padding: 10px 23px;
